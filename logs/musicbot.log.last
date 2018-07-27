@@ -1,0 +1,114 @@
+[71.940422058] 2018-07-26 21:14:13,178 - INFO - launcher: Starting sanity checks
+[72.940349579] 2018-07-26 21:14:13,179 - INFO - launcher: Checking for Python 3.5+
+[72.940349579] 2018-07-26 21:14:13,179 - INFO - launcher: Checking console encoding
+[73.942899704] 2018-07-26 21:14:13,180 - INFO - launcher: Setting console encoding to UTF-8
+[73.942899704] 2018-07-26 21:14:13,180 - INFO - launcher: Ensuring we're in the right environment
+[79.947710037] 2018-07-26 21:14:13,186 - INFO - launcher: Adding local bins/ folder to path
+[80.948352814] 2018-07-26 21:14:13,187 - INFO - launcher: Required checks passed.
+[83.952188492] 2018-07-26 21:14:13,190 - INFO - launcher: Optional checks passed.
+[88.955640793] 2018-07-26 21:14:13,195 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[3.2738718986511230] 2018-07-26 21:14:16,380 - WARNING - musicbot.config | In config.py::MainThread(1536), line 112 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[3.2748754024505615] 2018-07-26 21:14:16,381 - INFO - musicbot.config | In config.py::MainThread(1536), line 123 in run_checks: Using i18n: config/i18n/en.json
+[3.2848811149597168] 2018-07-26 21:14:16,391 - DEBUG - musicbot.json | In json.py::MainThread(1536), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[3.7092792987823486] 2018-07-26 21:14:16,815 - DEBUG - musicbot.bot | In bot.py::MainThread(1536), line 227 in _setup_logging: Set logging level to INFO
+[3.7092792987823486] 2018-07-26 21:14:16,815 - INFO - musicbot.bot | In bot.py::MainThread(1536), line 84 in __init__: Starting MusicBot 1.9.7
+[3.7132828235626221] 2018-07-26 21:14:16,819 - INFO - musicbot.bot | In bot.py::MainThread(1536), line 90 in __init__: Loaded autoplaylist with 2530 entries
+[6.4383134841918945] 2018-07-26 21:14:19,544 - DEBUG - musicbot.bot | In bot.py::MainThread(1536), line 1074 in on_ready: Connection established, ready to go.
+[6.4383134841918945] 2018-07-26 21:14:19,544 - DEBUG - musicbot.bot | In bot.py::MainThread(1536), line 339 in _cache_app_info: Caching app info
+[6.5614285469055176] 2018-07-26 21:14:19,668 - DEBUG - musicbot.bot | In bot.py::MainThread(1536), line 889 in _scheck_ensure_env: Ensuring data folders exist
+[6.5655705928802490] 2018-07-26 21:14:19,672 - DEBUG - musicbot.bot | In bot.py::MainThread(1536), line 905 in _scheck_server_permissions: Checking server permissions
+[6.5655705928802490] 2018-07-26 21:14:19,672 - DEBUG - musicbot.bot | In bot.py::MainThread(1536), line 909 in _scheck_autoplaylist: Auditing autoplaylist
+[6.5655705928802490] 2018-07-26 21:14:19,672 - DEBUG - musicbot.bot | In bot.py::MainThread(1536), line 913 in _scheck_configs: Validating config
+[6.5664339065551758] 2018-07-26 21:14:19,673 - DEBUG - musicbot.config | In config.py::MainThread(1536), line 212 in async_validate: Validating options...
+[6.5664339065551758] 2018-07-26 21:14:19,673 - DEBUG - musicbot.config | In config.py::MainThread(1536), line 226 in async_validate: Acquired owner id via API
+[6.5664339065551758] 2018-07-26 21:14:19,673 - DEBUG - musicbot.bot | In bot.py::MainThread(1536), line 916 in _scheck_configs: Validating permissions config
+[6.5664339065551758] 2018-07-26 21:14:19,673 - DEBUG - musicbot.permissions | In permissions.py::MainThread(1536), line 64 in async_validate: Validating permissions...
+[6.5664339065551758] 2018-07-26 21:14:19,673 - DEBUG - musicbot.permissions | In permissions.py::MainThread(1536), line 68 in async_validate: Fixing automatic owner group
+[6.5664339065551758] 2018-07-26 21:14:19,673 - INFO - musicbot.bot | In bot.py::MainThread(1536), line 1091 in on_ready: Connected: 471776669523378227/Happy FM#2952
+[6.5684359073638916] 2018-07-26 21:14:19,675 - INFO - musicbot.bot | In bot.py::MainThread(1536), line 1099 in on_ready: Owner:     265848804379459584/GamingWay#1890
+
+[6.5694367885589600] 2018-07-26 21:14:19,676 - INFO - musicbot.bot | In bot.py::MainThread(1536), line 1102 in on_ready: Server List:
+[6.5704543590545654] 2018-07-26 21:14:19,677 - INFO - musicbot.bot | In bot.py::MainThread(1536), line 1105 in on_ready:  - {USPD} United States Police Department
+[6.5714423656463623] 2018-07-26 21:14:19,678 - INFO - musicbot.bot | In bot.py::MainThread(1536), line 1105 in on_ready:  - Happy FM
+[6.5724396705627441] 2018-07-26 21:14:19,679 - INFO - musicbot.bot | In bot.py::MainThread(1536), line 1151 in on_ready: Not bound to any text channels
+[6.5734398365020752] 2018-07-26 21:14:19,680 - INFO - musicbot.bot | In bot.py::MainThread(1536), line 1177 in on_ready: Not autojoining any voice channels
+[6.5754423141479492] 2018-07-26 21:14:19,682 - INFO - musicbot.bot | In bot.py::MainThread(1536), line 266 in _join_startup_channels: Found resumable voice channel Happy FM/Radio
+[6.5774433612823486] 2018-07-26 21:14:19,684 - INFO - musicbot.bot | In bot.py::MainThread(1536), line 281 in _join_startup_channels: Attempting to join Happy FM/Radio
+[6.5774433612823486] 2018-07-26 21:14:19,684 - DEBUG - musicbot.bot | In bot.py::MainThread(1536), line 452 in get_voice_client: Connection attempt 1 to Radio
+[6.5784456729888916] 2018-07-26 21:14:19,685 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(1536), line 391 in join_voice_channel: (join_voice_channel) creating futures
+[6.5784456729888916] 2018-07-26 21:14:19,685 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(1536), line 397 in join_voice_channel: (join_voice_channel) setting voice state
+[6.5794456005096436] 2018-07-26 21:14:19,686 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(1536), line 400 in join_voice_channel: (join_voice_channel) waiting for session id
+[6.7105710506439209] 2018-07-26 21:14:19,817 - DEBUG - musicbot.bot | In bot.py::MainThread(1536), line 2926 in on_voice_state_update: Resumed voice connection to Happy FM/Radio
+[6.7105710506439209] 2018-07-26 21:14:19,817 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(1536), line 2938 in on_voice_state_update: Voice state update for 471776669523378227/Happy FM#2952 on Happy FM/Radio -> [RESUME, CONNECT]
+[6.7115702629089355] 2018-07-26 21:14:19,818 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(1536), line 404 in join_voice_channel: (join_voice_channel) waiting for voice data
+[6.8145885467529297] 2018-07-26 21:14:19,921 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(1536), line 418 in join_voice_channel: (join_voice_channel) connecting...
+[6.9997622966766357] 2018-07-26 21:14:20,106 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(1536), line 430 in join_voice_channel: (join_voice_channel) connection successful
+[6.9997622966766357] 2018-07-26 21:14:20,106 - DEBUG - musicbot.bot | In bot.py::MainThread(1536), line 478 in get_voice_client: Connected in 0.4s
+[6.9997622966766357] 2018-07-26 21:14:20,106 - INFO - musicbot.bot | In bot.py::MainThread(1536), line 479 in get_voice_client: Connected to Happy FM/Radio
+[7.0017650127410889] 2018-07-26 21:14:20,108 - DEBUG - musicbot.bot | In bot.py::MainThread(1536), line 849 in deserialize_queue: Deserializing queue for 471773564761145364
+[7.6323556900024414] 2018-07-26 21:14:20,739 - DEBUG - musicbot.bot | In bot.py::MainThread(1536), line 570 in get_player: Created player via deserialization for server 471773564761145364 with 1 entries
+[7.6323556900024414] 2018-07-26 21:14:20,739 - INFO - musicbot.bot | In bot.py::MainThread(1536), line 297 in _join_startup_channels: Joined Happy FM/Radio
+[7.6333551406860352] 2018-07-26 21:14:20,740 - VOICEDEBUG - musicbot.player | In player.py::MainThread(1536), line 373 in websocket_check: Starting websocket check loop for Happy FM
+[7.6345100402832031] 2018-07-26 21:14:20,741 - DEBUG - musicbot.entry | In entry.py::MainThread(1536), line 54 in get_ready_future: Created future for audio_cache\youtube-ioMq8f_UUX4-Jacoo_-_A_World_Of_Peace_OVRJYD_Remix.m4a
+[7.6345100402832031] 2018-07-26 21:14:20,741 - FFMPEG - musicbot.player | In player.py::MainThread(1536), line 330 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-ioMq8f_UUX4-Jacoo_-_A_World_Of_Peace_OVRJYD_Remix.m4a
+[7.6463687419891357] 2018-07-26 21:14:20,753 - INFO - musicbot.bot | In bot.py::MainThread(1536), line 256 in _autopause: Initial autopause in empty channel
+[7.6493713855743408] 2018-07-26 21:14:20,756 - DEBUG - musicbot.bot | In bot.py::MainThread(1536), line 825 in serialize_queue: Serializing queue for 471773564761145364
+[8.5752947330474854] 2018-07-26 21:14:21,681 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(1536), line 2938 in on_voice_state_update: Voice state update for 429928162588360706/RobloxianGamer#8378 on Happy FM/General -> [DISCONNECT]
+[12.7223999500274658] 2018-07-26 21:14:25,829 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(1536), line 2938 in on_voice_state_update: Voice state update for 265848804379459584/GamingWay#1890 on Happy FM/General -> [CONNECT]
+[41.3811471462249756] 2018-07-26 21:14:54,487 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(1536), line 2938 in on_voice_state_update: Voice state update for 265848804379459584/GamingWay#1890 on Happy FM/General -> [DISCONNECT]
+[50.5020000934600830] 2018-07-26 21:15:03,608 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(1536), line 2938 in on_voice_state_update: Voice state update for 265848804379459584/GamingWay#1890 on Happy FM/General -> [CONNECT]
+[65.3290112018585205] 2018-07-26 21:15:18,435 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(1536), line 2938 in on_voice_state_update: Voice state update for 265848804379459584/GamingWay#1890 on Happy FM/General -> [DISCONNECT]
+[93.9038858413696289] 2018-07-26 21:15:47,010 - INFO - musicbot.bot | In bot.py::MainThread(1536), line 2734 in on_message: 373558798259847180/JasonCool221#2799: !summon
+[93.9048862457275391] 2018-07-26 21:15:47,011 - ERROR - musicbot.bot | In bot.py::MainThread(1536), line 2863 in on_message: Error in summon: CommandError: You are not in a voice channel!
+Traceback (most recent call last):
+  File "C:\Users\georg\Desktop\Happy FM\MusicBot\musicbot\bot.py", line 2841, in on_message
+    response = await handler(**handler_kwargs)
+  File "C:\Users\georg\Desktop\Happy FM\MusicBot\musicbot\bot.py", line 1995, in cmd_summon
+    raise exceptions.CommandError(self.str.get('cmd-summon-novc', 'You are not in a voice channel!'))
+musicbot.exceptions.CommandError: You are not in a voice channel!
+[98.3481128215789795] 2018-07-26 21:15:51,454 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(1536), line 2938 in on_voice_state_update: Voice state update for 373558798259847180/JasonCool221#2799 on {USPD} United States Police Department/Chief | Jason's Office -> [CONNECT]
+[101.0991761684417725] 2018-07-26 21:15:54,205 - INFO - musicbot.bot | In bot.py::MainThread(1536), line 2734 in on_message: 373558798259847180/JasonCool221#2799: !summon
+[101.1011776924133301] 2018-07-26 21:15:54,207 - INFO - musicbot.bot | In bot.py::MainThread(1536), line 2019 in cmd_summon: Joining {USPD} United States Police Department/Chief | Jason's Office
+[101.1011776924133301] 2018-07-26 21:15:54,207 - DEBUG - musicbot.bot | In bot.py::MainThread(1536), line 452 in get_voice_client: Connection attempt 1 to Chief | Jason's Office
+[101.1021831035614014] 2018-07-26 21:15:54,208 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(1536), line 391 in join_voice_channel: (join_voice_channel) creating futures
+[101.1021831035614014] 2018-07-26 21:15:54,208 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(1536), line 397 in join_voice_channel: (join_voice_channel) setting voice state
+[101.1021831035614014] 2018-07-26 21:15:54,208 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(1536), line 400 in join_voice_channel: (join_voice_channel) waiting for session id
+[101.2172644138336182] 2018-07-26 21:15:54,323 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(1536), line 2938 in on_voice_state_update: Voice state update for 471776669523378227/Happy FM#2952 on {USPD} United States Police Department/Chief | Jason's Office -> [JOIN, CONNECT]
+[101.2172644138336182] 2018-07-26 21:15:54,323 - INFO - musicbot.bot | In bot.py::MainThread(1536), line 2949 in on_voice_state_update: 471776669523378227/Happy FM#2952 has joined {USPD} United States Police Department/Chief | Jason's Office
+[101.2182650566101074] 2018-07-26 21:15:54,324 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(1536), line 404 in join_voice_channel: (join_voice_channel) waiting for voice data
+[101.3083486557006836] 2018-07-26 21:15:54,415 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(1536), line 418 in join_voice_channel: (join_voice_channel) connecting...
+[101.4875178337097168] 2018-07-26 21:15:54,594 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(1536), line 430 in join_voice_channel: (join_voice_channel) connection successful
+[101.4875178337097168] 2018-07-26 21:15:54,594 - DEBUG - musicbot.bot | In bot.py::MainThread(1536), line 478 in get_voice_client: Connected in 0.4s
+[101.4885175228118896] 2018-07-26 21:15:54,595 - INFO - musicbot.bot | In bot.py::MainThread(1536), line 479 in get_voice_client: Connected to {USPD} United States Police Department/Chief | Jason's Office
+[101.5015304088592529] 2018-07-26 21:15:54,608 - DEBUG - musicbot.bot | In bot.py::MainThread(1536), line 849 in deserialize_queue: Deserializing queue for 471662427784740884
+[101.6026246547698975] 2018-07-26 21:15:54,709 - DEBUG - musicbot.bot | In bot.py::MainThread(1536), line 570 in get_player: Created player via deserialization for server 471662427784740884 with 1 entries
+[101.6036264896392822] 2018-07-26 21:15:54,710 - DEBUG - musicbot.bot | In bot.py::MainThread(1536), line 825 in serialize_queue: Serializing queue for 471662427784740884
+[101.6266479492187500] 2018-07-26 21:15:54,733 - VOICEDEBUG - musicbot.player | In player.py::MainThread(1536), line 373 in websocket_check: Starting websocket check loop for {USPD} United States Police Department
+[101.6266479492187500] 2018-07-26 21:15:54,733 - DEBUG - musicbot.entry | In entry.py::MainThread(1536), line 54 in get_ready_future: Created future for audio_cache\youtube-T3wvPpVOL04-The_Him_-_Don_t_Leave_Without_Me_ft._Gia_Koka.webm
+[101.6266479492187500] 2018-07-26 21:15:54,733 - FFMPEG - musicbot.player | In player.py::MainThread(1536), line 330 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-T3wvPpVOL04-The_Him_-_Don_t_Leave_Without_Me_ft._Gia_Koka.webm
+[101.6436645984649658] 2018-07-26 21:15:54,750 - DEBUG - musicbot.bot | In bot.py::MainThread(1536), line 825 in serialize_queue: Serializing queue for 471662427784740884
+[106.1265203952789307] 2018-07-26 21:15:59,233 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(1536), line 2938 in on_voice_state_update: Voice state update for 373558798259847180/JasonCool221#2799 on {USPD} United States Police Department/Chief | Jason's Office -> [LEAVE, DISCONNECT]
+[106.1265203952789307] 2018-07-26 21:15:59,233 - INFO - musicbot.bot | In bot.py::MainThread(1536), line 2949 in on_voice_state_update: 373558798259847180/JasonCool221#2799 has left {USPD} United States Police Department/Chief | Jason's Office
+[106.1285231113433838] 2018-07-26 21:15:59,235 - INFO - musicbot.bot | In bot.py::MainThread(1536), line 2987 in on_voice_state_update: Pausing in {USPD} United States Police Department/Chief | Jason's Office (empty channel)
+[152.0832962989807129] 2018-07-26 21:16:45,189 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(1536), line 2938 in on_voice_state_update: Voice state update for 265848804379459584/GamingWay#1890 on Happy FM/Radio -> [JOIN, CONNECT]
+[152.0842964649200439] 2018-07-26 21:16:45,190 - INFO - musicbot.bot | In bot.py::MainThread(1536), line 2949 in on_voice_state_update: 265848804379459584/GamingWay#1890 has joined Happy FM/Radio
+[152.0852975845336914] 2018-07-26 21:16:45,191 - INFO - musicbot.bot | In bot.py::MainThread(1536), line 2977 in on_voice_state_update: Unpausing in Happy FM/Radio
+[510.4497578144073486] 2018-07-26 21:22:43,556 - DEBUG - musicbot.bot | In bot.py::MainThread(1536), line 679 in on_player_finished_playing: No content in current autoplaylist. Filling with new music...
+[513.6846935749053955] 2018-07-26 21:22:46,791 - DEBUG - musicbot.entry | In entry.py::MainThread(1536), line 54 in get_ready_future: Created future for None
+[513.6866927146911621] 2018-07-26 21:22:46,793 - INFO - musicbot.entry | In entry.py::MainThread(1536), line 220 in _really_download: Download started: https://youtube.com/watch?v=8urhUop-ouI
+[515.6985070705413818] 2018-07-26 21:22:48,805 - DEBUG - musicbot.entry | In entry.py::MainThread(1536), line 54 in get_ready_future: Created future for None
+[516.8375568389892578] 2018-07-26 21:22:49,944 - INFO - musicbot.entry | In entry.py::MainThread(1536), line 230 in _really_download: Download complete: https://youtube.com/watch?v=8urhUop-ouI
+[516.8405570983886719] 2018-07-26 21:22:49,947 - FFMPEG - musicbot.player | In player.py::MainThread(1536), line 330 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-8urhUop-ouI-Bill_Evans_and_Jim_Hall_Duo_-_Skating_in_Central_Park.webm
+[516.9086239337921143] 2018-07-26 21:22:50,015 - DEBUG - musicbot.bot | In bot.py::MainThread(1536), line 825 in serialize_queue: Serializing queue for 471773564761145364
+[850.3514990806579590] 2018-07-26 21:28:23,458 - DEBUG - musicbot.entry | In entry.py::MainThread(1536), line 54 in get_ready_future: Created future for None
+[850.3535013198852539] 2018-07-26 21:28:23,460 - INFO - musicbot.entry | In entry.py::MainThread(1536), line 220 in _really_download: Download started: https://youtube.com/watch?v=5XfRjVo5wOE
+[852.2523565292358398] 2018-07-26 21:28:25,359 - INFO - musicbot.entry | In entry.py::MainThread(1536), line 230 in _really_download: Download complete: https://youtube.com/watch?v=5XfRjVo5wOE
+[852.3500869274139404] 2018-07-26 21:28:25,456 - DEBUG - musicbot.entry | In entry.py::MainThread(1536), line 54 in get_ready_future: Created future for audio_cache\youtube-5XfRjVo5wOE-Kiss_-_Rock_and_Roll_all_Night_with_Lyrics.webm
+[852.3500869274139404] 2018-07-26 21:28:25,456 - FFMPEG - musicbot.player | In player.py::MainThread(1536), line 330 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-5XfRjVo5wOE-Kiss_-_Rock_and_Roll_all_Night_with_Lyrics.webm
+[852.3640992641448975] 2018-07-26 21:28:25,470 - DEBUG - musicbot.bot | In bot.py::MainThread(1536), line 825 in serialize_queue: Serializing queue for 471773564761145364
+[1017.1940052509307861] 2018-07-26 21:31:10,300 - DEBUG - musicbot.entry | In entry.py::MainThread(1536), line 54 in get_ready_future: Created future for None
+[1017.1960051059722900] 2018-07-26 21:31:10,302 - INFO - musicbot.entry | In entry.py::MainThread(1536), line 220 in _really_download: Download started: https://youtube.com/watch?v=pk5tpGclppc
+[1019.1868979930877686] 2018-07-26 21:31:12,293 - DEBUG - musicbot.entry | In entry.py::MainThread(1536), line 54 in get_ready_future: Created future for None
